@@ -36,9 +36,4 @@ DataWare a confié à notre équipe la mission de concevoir une solution innovan
 
 Rédaction de requêtes SQL pour interagir avec la base de données.
 
-```sql
--- Exemple de requête pour récupérer les employés
-SELECT * FROM employes;
 
--- Exemple de sous-requête pour obtenir les projets d'un employé
-SELECT * FROM projets WHERE id_employe IN (SELECT id_employe FROM employes WHERE nom='NomEmploye');
